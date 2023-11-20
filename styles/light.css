@@ -19,3 +19,29 @@
 .page.theme_light .header__rec {
 	display: none;
 }
+
+html:has(.page.page.theme_light) {
+	--document-bg-color: #f3e5eb; /*по макету цвет #fff1f7, но он сливается с бэкграундом*/
+}
+
+@media (prefers-color-scheme: light) {
+	html {
+		--document-bg-color: #fff1f7; /*по макету цвет #fff1f7, но он сливается с бэкграундом*/
+	}
+
+	.page {
+		--accent-color: #ff0070;
+		--main-color: #353430;
+		--text-color: #353430;
+		--focus-color: #ffc2e6;
+		--theme-menu-color: #353430;
+		--article-title-bg: #ffc2e6;
+		--menu-hover-color: rgba(50, 49, 45, 0.4);
+
+		--backgroune-img-url: url("/images/cover-image-light.png");
+	}
+
+	.page .header__rec {
+		display: none;
+	}
+}

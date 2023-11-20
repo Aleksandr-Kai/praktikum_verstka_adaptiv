@@ -1,8 +1,13 @@
+html {
+	background-color: var(
+		--document-bg-color
+	); /* цвет фона за пределами контейнера при большом разрешении */
+}
 .page {
 	--padding: 10px;
 	padding: var(--padding);
+	overflow-x: hidden;
 
-	background-color: var(--main-color);
 	background: var(--backgroune-img-url), lightgray 50% / cover no-repeat;
 	background-attachment: fixed;
 	background-size: auto 100%;
@@ -425,22 +430,5 @@ img {
 		--menu-hover-color: rgba(255, 0, 112, 0.4);
 
 		--backgroune-img-url: url("/images/cover-image-dark.png");
-	}
-}
-@media (prefers-color-scheme: light) {
-	.page {
-		--accent-color: #ff0070;
-		--main-color: #353430;
-		--text-color: #353430;
-		--focus-color: #ffc2e6;
-		--theme-menu-color: #353430;
-		--article-title-bg: #ffc2e6;
-		--menu-hover-color: rgba(50, 49, 45, 0.4);
-
-		--backgroune-img-url: url("/images/cover-image-light.png");
-	}
-
-	.page .header__rec {
-		display: none;
 	}
 }
