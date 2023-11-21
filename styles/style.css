@@ -1,5 +1,5 @@
 .page {
-	background: url(../images/cover-image-dark.png);
+	background: url("../images/cover-image-dark.png");
 	background-attachment: fixed;
 	background-size: cover;
 
