@@ -8,6 +8,7 @@
 	--menu-hover-color: rgba(255, 0, 112, 0.4);
 
 	background: url("../images/cover-image-dark.png");
+	background-color: #000028;
 	background-attachment: fixed;
 	background-size: cover;
 }
@@ -28,6 +29,7 @@
 	}
 	.page {
 		background: url("../images/cover-image-dark.png");
+		background-color: #000028;
 		background-attachment: fixed;
 		background-size: cover;
 	}
