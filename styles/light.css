@@ -1,33 +1,23 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
-.page.theme_light {
+body.page.theme_light {
 	--accent-color: #ff0070;
 	--main-color: #353430;
 	--text-color: #353430;
 	--focus-color: #ffc2e6;
 	--theme-menu-color: #353430;
-	--article-title-bg: #ffc2e6;
+	--article-title-bg: #ff8dcb;
 	--menu-hover-color: rgba(50, 49, 45, 0.4);
 
-	--backgroune-img-url: url("/images/cover-image-light.png");
+	background: url(../images/cover-image-light.png);
+	background-attachment: fixed;
+	background-size: cover;
 }
-html:has(.page.page.page.theme_light) {
-	--document-bg-color: #fff1f7;
-}
-.page.page.theme_light .header__rec {
+
+body.page.theme_light .header__rec {
 	visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
-	:root {
-		--document-bg-color: #fff1f7;
-	}
-
-	.page {
+	.page.theme_auto {
 		--accent-color: #ff0070;
 		--main-color: #353430;
 		--text-color: #353430;
@@ -36,10 +26,12 @@ html:has(.page.page.page.theme_light) {
 		--article-title-bg: #ffc2e6;
 		--menu-hover-color: rgba(50, 49, 45, 0.4);
 
-		--backgroune-img-url: url("/images/cover-image-light.png");
+		background: url(../images/cover-image-light.png);
+		background-attachment: fixed;
+		background-size: cover;
 	}
 
-	.page .header__rec {
+	body.page.theme_auto .header__rec {
 		visibility: hidden;
 	}
 }
