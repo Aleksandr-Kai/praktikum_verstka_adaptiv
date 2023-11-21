@@ -1,4 +1,4 @@
-body.page.theme_light {
+.page.theme_light {
 	--accent-color: #ff0070;
 	--main-color: #353430;
 	--text-color: #353430;
@@ -12,7 +12,7 @@ body.page.theme_light {
 	background-size: cover;
 }
 
-body.page.theme_light .header__rec {
+.page.theme_light .header__rec {
 	visibility: hidden;
 }
 
@@ -31,7 +31,7 @@ body.page.theme_light .header__rec {
 		background-size: cover;
 	}
 
-	body.page.theme_auto .header__rec {
+	.page.theme_auto .header__rec {
 		visibility: hidden;
 	}
 }
