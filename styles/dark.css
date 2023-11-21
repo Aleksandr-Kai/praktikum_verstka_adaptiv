@@ -8,7 +8,6 @@
 	--menu-hover-color: rgba(255, 0, 112, 0.4);
 
 	background: url("../images/cover-image-dark.png");
-	background-color: #000028;
 	background-attachment: fixed;
 	background-size: cover;
 }
@@ -27,9 +26,8 @@
 		--article-title-bg: #ff0070;
 		--menu-hover-color: rgba(255, 0, 112, 0.4);
 	}
-	.page.theme_auto {
+	.page {
 		background: url("../images/cover-image-dark.png");
-		background-color: #000028;
 		background-attachment: fixed;
 		background-size: cover;
 	}
