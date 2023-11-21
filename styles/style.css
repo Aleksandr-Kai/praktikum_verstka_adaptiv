@@ -1,7 +1,9 @@
 .page {
 	background: url("../images/cover-image-dark.png");
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: auto 100%;
+	object-position: center;
+	overflow-x: hidden;
 
 	font-family: "IBM Plex Mono", Arial, Helvetica, sans-serif;
 	font-style: normal;
@@ -21,7 +23,6 @@
 	gap: 10px;
 }
 .header__theme-menu-item {
-	display: block;
 	width: 70px;
 	padding: 4px 13px;
 }
