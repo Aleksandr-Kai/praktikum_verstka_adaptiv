@@ -1,9 +1,8 @@
 .page {
 	background: url("../images/cover-image-dark.png");
+	background-color: #000028;
 	background-attachment: fixed;
-	background-size: auto 100%;
-	object-position: center;
-	overflow-x: hidden;
+	background-size: cover;
 
 	font-family: "IBM Plex Mono", Arial, Helvetica, sans-serif;
 	font-style: normal;
