@@ -22,7 +22,6 @@
 }
 .header__theme-menu-item {
     width: 70px;
-    /* padding: 4px 13px; */
 }
 .header__theme-menu-button {
     text-transform: lowercase;
@@ -32,10 +31,6 @@
 }
 .header__theme-menu-button_active {
     pointer-events: none;
-}
-/* .header__theme-menu-item:has(.header__theme-menu-button_active) { */
-.header__theme-menu-button_active {
-    /* для совместимости с firefox */
     outline: 1px solid var(--theme-menu-color);
 }
 .header__theme-menu-item:hover {
